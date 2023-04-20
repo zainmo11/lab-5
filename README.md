@@ -12,13 +12,13 @@
 ## Batch File
 - To make running the program easier, a batch file has been provided that allows you to test three different scenarios:
 
-## Normal case: provide the input file and specify its name inside the batch script.
-- Not valid Autosar file case: provide the file that is not valid Autosar file.
-- Empty file case: provide the empty file.
-- To use the batch file, simply run the command below in the command line:
-
-## bash
-- Copy code
+## Normal case:
+   provide the input file and specify its name inside the batch script.
+## Not valid Autosar file case:
+   provide the file that is not valid Autosar file.
+## Empty file case: 
+   provide the empty file.
+##To use the batch file, simply run the command below in the command line:
 - sh run_autosar_reorder.sh
 ## Exceptions
 - NotValidAutosarFileException: This exception is thrown when the input file does not have the .arxml extension.
