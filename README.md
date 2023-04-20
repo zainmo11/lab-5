@@ -20,7 +20,9 @@
    provide the empty file.
 ## To use the batch file
 - simply run the command below in the command line:
-- sh run_autosar_reorder.sh
+```
+ sh run_autosar_reorder.sh
+```
 ## Exceptions
 - NotValidAutosarFileException: This exception is thrown when the input file does not have the .arxml extension.
 - EmptyAutosarFileException: This exception is thrown when the input file is empty.
