@@ -30,8 +30,8 @@ public class Main {
             if (inputFile.length() == 0) {
                 throw new EmptyAutosarFileException("File is empty");
             }
-            x.replaceFirst("[.][^.]+$", "");
-            File outputXmlFile = new File(x + "_mod.arxml");
+            String y = x.replaceFirst(".arxml", "");
+            File outputXmlFile = new File(y + "_mod.arxml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
