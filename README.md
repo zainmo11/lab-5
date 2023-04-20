@@ -18,7 +18,7 @@
    provide the file that is not valid Autosar file.
 ## Empty file case: 
    provide the empty file.
-##To use the batch file, simply run the command below in the command line:
+## To use the batch file, simply run the command below in the command line:
 - sh run_autosar_reorder.sh
 ## Exceptions
 - NotValidAutosarFileException: This exception is thrown when the input file does not have the .arxml extension.
