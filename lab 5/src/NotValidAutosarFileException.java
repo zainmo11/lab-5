@@ -3,7 +3,7 @@ public class NotValidAutosarFileException extends Exception {
         super("Input file is not a valid Autosar file (.arxml)");
     }
 }
-class EmptyAutosarFileException extends Exception {
+public class EmptyAutosarFileException extends Exception {
     public EmptyAutosarFileException(String message) {
         super(message);
     }
